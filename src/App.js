@@ -1,4 +1,4 @@
-import { Route, Routes } from 'react-router-dom';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Menu from './components/menu';
 import List from './components/list';
 import Add from './components/add';
@@ -7,7 +7,7 @@ import Footer from './components/footer';
 
 function App() {
   return (
-    <>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Menu />
       <Routes>
         <Route path="/" element={<List />} />
@@ -15,7 +15,7 @@ function App() {
         <Route path="/about" element={<About />} />
       </Routes>
       <Footer />
-    </>
+    </BrowserRouter>
   );
 }
 
