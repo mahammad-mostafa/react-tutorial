@@ -31,7 +31,7 @@
   "bugs": {
     "url": "https://github.com/mahammad-mostafa/react-tutorial-app/issues"
   },
-  "homepage": "https://github.com/mahammad-mostafa/react-tutorial-app/build",
+  "homepage": "(https://mahammad-mostafa.github.io/react-tutorial-app/build",
   "eslintConfig": {
     "extends": [
       "react-app",
