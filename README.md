@@ -34,7 +34,7 @@ The live build is generated inside the `build` directory.
 Also config linters for (`CSS3` / `JavaScript`) in the `.github` folder.
 
 📌 **Live Demo:**
-- See the project live from [here](https://mahammad-mostafa.github.io/react-tutorial-app/dist).
+- See the project live from [here](https://mahammad-mostafa.github.io/react-tutorial-app/build).
 
 📌 **Tech Stack:**
 - Framework used is `ReactJS`
