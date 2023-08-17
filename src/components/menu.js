@@ -26,8 +26,8 @@ const Menu = () => {
         </button>
         <ul className={opened ? `${Styles.list} ${Styles.visible}` : Styles.list}>
           <li><Link to="/">List</Link></li>
-          <li><Link to="/add">Add</Link></li>
-          <li><Link to="/about">About</Link></li>
+          <li><Link to="add">Add</Link></li>
+          <li><Link to="about">About</Link></li>
         </ul>
       </nav>
     </header>

@@ -11,8 +11,9 @@ function App() {
       <Menu />
       <Routes>
         <Route path="/" element={<List />} />
-        <Route path="/add" element={<Add />} />
-        <Route path="/about" element={<About />} />
+        <Route path="add" element={<Add />} />
+        <Route path="about" element={<About />} />
+        <Route path="*" element={<h2>404 Not Found</h2>} />
       </Routes>
       <Footer />
     </BrowserRouter>
