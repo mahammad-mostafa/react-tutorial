@@ -23,7 +23,7 @@ const Item = ({ task: { id, text, done }, handlers }) => {
     return (
       <li className={Styles.item}>
         <form className={Styles.form} onSubmit={handleSubmit}>
-          <input type="text" className={Styles.input} value={value} onChange={(event) => setValue(event.target.value)} required />
+          <input type="text" name="name" autoComplete="on" className={Styles.input} value={value} onChange={(event) => setValue(event.target.value)} required />
           <button type="submit" className={Styles.button}>
             <FaCheck />
           </button>
@@ -36,7 +36,7 @@ const Item = ({ task: { id, text, done }, handlers }) => {
   }
   return (
     <li className={Styles.item}>
-      <input type="checkbox" className={Styles.check} onChange={() => handlers[1](id)} checked={done} />
+      <input type="checkbox" name="done" className={Styles.check} onChange={() => handlers[1](id)} checked={done} />
       <p className={done ? Styles.done : Styles.text}>{text}</p>
       <button type="button" className={Styles.button} onClick={() => setEditing(true)}>
         <FaPenFancy />

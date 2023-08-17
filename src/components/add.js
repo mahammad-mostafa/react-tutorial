@@ -29,7 +29,7 @@ const Add = () => {
   return (
     <form onSubmit={handleSubmit} className={Styles.form}>
       <h2>Add New Task</h2>
-      <input type="text" placeholder="Type task name" className={Styles.input} onChange={(event) => setValue(event.target.value)} value={value} required />
+      <input type="text" name="name" autoComplete="on" placeholder="Type task name" className={Styles.input} onChange={(event) => setValue(event.target.value)} value={value} required />
       <button type="submit" className={Styles.button}>Add Task</button>
     </form>
   );
