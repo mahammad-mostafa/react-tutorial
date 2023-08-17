@@ -21,6 +21,17 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mahammad-mostafa/react-tutorial-app.git"
+  },
+  "keywords": [],
+  "author": "Mahammad Mostafa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mahammad-mostafa/react-tutorial-app/issues"
+  },
+  "homepage": "https://github.com/mahammad-mostafa/react-tutorial-app/build",
   "eslintConfig": {
     "extends": [
       "react-app",
