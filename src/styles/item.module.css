@@ -1,0 +1,68 @@
+.item {
+  height: 50px;
+  display: flex;
+  gap: 10px;
+  padding: 10px;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--border-color);
+}
+
+.check {
+  min-width: 15px;
+  min-height: 15px;
+  cursor: pointer;
+  appearance: none;
+  border: 1px solid var(--text-color);
+  border-radius: 3px;
+  margin: 3.5px 0;
+}
+
+.check:checked {
+  border: none;
+  margin: 0;
+}
+
+.check:checked::after {
+  content: '✅';
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-color);
+}
+
+.text,
+.done {
+  overflow-x: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  margin-inline-end: auto;
+}
+
+.done {
+  font-style: italic;
+  text-decoration: line-through;
+}
+
+.button {
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.25rem;
+  color: var(--text-color);
+}
+
+.form {
+  width: 100%;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.input {
+  width: 100%;
+  padding: 5px;
+  outline: none;
+}
