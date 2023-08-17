@@ -1,0 +1,13 @@
+.list {
+  display: flex;
+  gap: 2.5px;
+  overflow-y: auto;
+  flex-direction: column;
+  color: var(--text-color);
+}
+
+.empty {
+  padding: 10px;
+  text-align: center;
+  background-color: var(--border-color);
+}
