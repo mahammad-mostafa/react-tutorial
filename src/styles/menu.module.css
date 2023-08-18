@@ -1,0 +1,56 @@
+.header {
+  height: 50px;
+  position: absolute;
+  top: 0;
+  inset-inline: 0;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.nav {
+  height: 100%;
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+  padding: 0 10px;
+  justify-content: space-between;
+}
+
+.button {
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-color);
+  font-size: 1.5rem;
+}
+
+.list {
+  min-width: 200px;
+  position: absolute;
+  top: 0;
+  inset-inline-end: 0;
+  display: none;
+  gap: 1px;
+  flex-direction: column;
+  background-color: var(--background-color);
+  border: 1px solid var(--background-color);
+}
+
+.list li {
+  cursor: pointer;
+  background-color: var(--border-color);
+}
+
+.list li:hover {
+  color: var(--background-color);
+  background-color: var(--text-color);
+}
+
+.list a {
+  display: block;
+  padding: 10px;
+}
+
+.visible {
+  display: flex;
+}
