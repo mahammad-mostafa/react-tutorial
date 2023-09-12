@@ -2,7 +2,7 @@
 
 <!-- TITLE -->
 
-# 🏷️ React Tutorial App
+# 🏷️ React Tutorial
 
 This is the second project of the third module in the **Microverse** program.
 <br/>
